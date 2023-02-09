@@ -13,8 +13,8 @@
 # 9
 
 n=int(input('Введите количество кустов n:'))
-while n<=0  :
-    n=int(input('Введите число большее 0 :' ))
+while n<3  :
+    n=int(input('Введите число большее 2 :' ))
      
 n_list=[]
 for i in range(n):
